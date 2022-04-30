@@ -1,4 +1,4 @@
-package contactapp;
+package contactapp.model.database;
 
 import java.io.File;
 import java.io.IOException;

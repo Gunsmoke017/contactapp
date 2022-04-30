@@ -1,6 +1,8 @@
-package contactapp;
+package contactapp.view;
 
-public class Main extends Controller{
+import contactapp.controller.Controller;
+
+public class Main extends Controller {
     public static void main(String[] args){
         Main start = new Main();
         start.menu();
