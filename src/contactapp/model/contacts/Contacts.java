@@ -174,6 +174,9 @@ public class Contacts implements IContactAppMethods{
                             fwrite.write(temp);
                         }
                         fwrite.close();
+                        System.out.println();
+                        System.out.println(" >> CONTACT HAS BEEN DELETED << ");
+                        System.out.println();
                         break;
                     } else if (getConfirm().equalsIgnoreCase("n")){
                         System.out.println(" >> OPERATION ABORTED");
